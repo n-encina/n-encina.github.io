@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <title>Nicholas Encina | STEM Portfolio</title>
+  <meta name="description" content="Portfolio of Nicholas Encina: robotics models, physics simulations, and games built in the Desmos graphing calculator.">
+  <meta property="og:title" content="Nicholas Encina | STEM Portfolio">
+  <meta property="og:description" content="Robotics models, physics simulations, and games built in the Desmos graphing calculator.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f7f7f4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1020" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f4fd8'/%3E%3Cpath d='M18 48V16h6l16 21V16h6v32h-6L24 27v21z' fill='%23fff'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#projects">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#top" aria-label="Nicholas Encina, home">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span>Nicholas Encina</span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#contact" id="nav-contact" hidden>Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Senior · BASIS Goodyear · Arizona</p>
+        <h1>Nicholas Encina</h1>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <span class="sec-num mono">01</span>
+          <div>
+            <h2>Desmos Projects</h2>
+            <p class="section-intro">Hobby projects I built entirely myself in the Desmos graphing calculator. Each one is a working simulation or tool. Open the expression list on the left side of any graph to inspect the underlying math.</p>
+          </div>
+        </header>
+
+        <div class="grid" id="project-grid">
+          <noscript><p class="note">Enable JavaScript to see the project cards.</p></noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT (shown only if filled in projects.js) ================= -->
+    <section id="contact" class="section section-alt" hidden>
+      <div class="wrap">
+        <header class="section-head reveal">
+          <span class="sec-num mono">02</span>
+          <div>
+            <h2>Contact</h2>
+            <p class="section-intro">Happy to talk about any of these projects.</p>
+          </div>
+        </header>
+        <div class="contact-links" id="contact-links"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <span>© <span id="year">2026</span> Nicholas Encina</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
